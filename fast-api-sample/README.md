@@ -15,14 +15,14 @@ docker-compose run --entrypoint "poetry install" demo-app
 
 
 # 2. データベースの接続（MySQL）
-# "db" コンテナの中で "mysql demo" コマンドを発行
+## "db" コンテナの中で "mysql demo" コマンドを発行
 docker-compose exec db mysql demo
 
-# mysqlクライアントのインストール
-# "demo-app" コンテナの中で "poetry add sqlalchemy aiomysql" を実行
+## mysqlクライアントのインストール
+## "demo-app" コンテナの中で "poetry add sqlalchemy aiomysql" を実行
 docker-compose exec demo-app poetry add sqlalchemy aiomysql
 
 
 # 3. DockerコンテナのMySQLにテーブルを作成
-# api モジュールの migrate_db スクリプトを実行する
+## api モジュールの migrate_db スクリプトを実行する
 docker-compose exec demo-app poetry run python -m api.migrate_db
