@@ -1,8 +1,10 @@
 # fast-api-sample
-# https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/f1b6fc
+## https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/f1b6fc
+## https://qiita.com/bee2/items/75d9c0d7ba20e7a4a0e9
+
 
 # 1. 環境構築
-# poetryによるPython環境のセットアップ
+## poetryによるPython環境のセットアップ
 $ docker-compose run \
   --entrypoint "poetry init \
     --name demo-app \
@@ -10,7 +12,7 @@ $ docker-compose run \
     --dependency uvicorn[standard]" \
   demo-app
 
-# FastAPIのインストール
+## FastAPIのインストール
 docker-compose run --entrypoint "poetry install" demo-app
 
 
