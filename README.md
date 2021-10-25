@@ -1,6 +1,8 @@
 # fast-api-sample
-## https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/f1b6fc
-## https://qiita.com/bee2/items/75d9c0d7ba20e7a4a0e9
+
+## 参考URL
+### https://zenn.dev/sh0nk/books/537bb028709ab9/viewer/f1b6fc
+### https://qiita.com/bee2/items/75d9c0d7ba20e7a4a0e9
 
 
 # 1. 環境構築
