@@ -1,4 +1,4 @@
-from typing import AwaitableGenerator
+# from typing import AwaitableGenerator
 from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.ext.asyncio import AsyncSession
 
